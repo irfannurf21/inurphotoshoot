@@ -1,0 +1,74 @@
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+body {
+    font-family: 'Playfair Display SC', Georgia, "Times New Roman", serif;
+    color: #000000;
+    background-color: #fff;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+  }
+
+.benefit {
+    background-repeat: no-repeat; background-size: 100%; background-position: 50%;
+}
+
+.benefit p {
+    font-size: x-small;
+}
+
+.benefit h3 {
+    font-family: 'Playfair Display SC', Georgia, "Times New Roman", serif;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.widget-content button:hover  {
+    background-color:#d30000;
+}
+
+.bg-img {
+    width: 100%; background-repeat: no-repeat; background-size: cover;
+}
+
+.col, .col-12, .col-lg-10, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-md-12, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-12, .col-sm-4, .col-sm-6, .col-xl-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+.price-heading h1 {
+    font-family: 'Playfair Display SC', Georgia, "Times New Roman", serif;
+    line-height: 1.5em;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container a {
+    text-decoration:none;
+ }
